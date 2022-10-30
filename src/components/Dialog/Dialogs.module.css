@@ -1,0 +1,39 @@
+.interlocutorsItem {
+    display: grid;
+
+    grid-template-areas: 'dI m';
+    grid-template-columns: 2fr 8fr;
+}
+
+.interlocutorItem {
+    grid-area: dI;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+.messageTextarea {
+    display: inline-block;
+}
+
+.messageForm {
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+/*.messageForm button {*/
+/*    padding-right: 500px;*/
+/*}*/
+
+.dialogs {
+    grid-area: m;
+    padding: 20px;
+}
+
+.messageItem {
+    color: white;
+}
+
+.interlocutorName:active {
+    color: white;
+}
